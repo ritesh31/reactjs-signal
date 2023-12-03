@@ -1,14 +1,14 @@
 import "./App.css";
-import TodosWithState from "./components/TodosWithState";
-import TodosWithSignal from "./components/TodosWithSignal";
-function App() {
+import ComputedSignal from "./components/computed/ComputedSignal";
+import ComputedState from "./components/computed/ComputedState";
 
+function App() {
   return (
     <div className="container">
       <h3>App component</h3>
       <div className="flex">
-        <TodosWithState />
-        <TodosWithSignal />
+        <ComputedState />
+        <ComputedSignal />
       </div>
     </div>
   );
