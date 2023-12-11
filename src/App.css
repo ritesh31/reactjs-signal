@@ -28,3 +28,9 @@
 .mr-2 {
   margin-right: 2rem;
 }
+
+.input-field {
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid;
+}
